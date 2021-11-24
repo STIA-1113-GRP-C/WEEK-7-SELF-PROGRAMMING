@@ -1,0 +1,16 @@
+package selfProgramming;
+
+public class Exercise_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for (int num = 2; num < 20; num++)
+		{
+			num = num * 2;
+			if (num < 15)
+				System.out.println(num);
+		}
+
+	}
+
+}
